@@ -89,7 +89,7 @@ const App = () => {
               dangerouslySetInnerHTML={{
                 __html: convertedData.replace(/\n/gim, "<br />"),
               }}
-              className="size-full bg-white border rounded-lg overflow-auto p-4"
+              className="size-full bg-white border rounded-lg overflow-auto p-4 break-words"
             />
           </div>
         </div>
